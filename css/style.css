@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha');
+
+.neucha {
+    font-family: 'Neucha', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.color-bg {
+    background-color: #E3FFD8;
+    padding-top: 0px;
+    margin-top: 0px;         
+}
+
+.text-forfon{
+    background-color: #E8DAC7
+}
+
+.color-fonw {
+    color: #ffffff
+}
+
+.btn-custom {
+    background-color: transparent;
+    border: solid #2b0200 1px;
+    border-radius: 15px;
+}
+
+.image-forfon {
+    background-image: url(../img/photo-14891.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 145px;
+    padding-bottom: 126px;
+}
+
+
+@media (max-width: 768px) {
+    .responsive{
+        font-size: 200% !important;
+    }
+    .image-forfon {
+    background-image: url(../img/photo-14891.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 80px;
+    }
+   
+}
+
+.responsive{
+    font-size: 300%;
+}
+
+.text-thin {
+    font-weight: 100;
+    font-family: 'Roboto Light', sans-serif;
+    line-height: inherit;
+}
+
+.img-rounded {
+    border-radius: 50%;
+}
