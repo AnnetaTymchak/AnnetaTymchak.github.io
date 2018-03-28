@@ -120,13 +120,22 @@ body,
 }
 
 .text-forfon{
-    background-color: #E8DAC7
+    background-color: #E8DAC7;
 }
 
 .text-fonwite{
-    background-color: #ffffff
+    background-color: #ffffff;
 }
 
 .background-wite{
-    background-color: cornsilk
+    background-color: cornsilk;
+}
+
+.line {
+    border-bottom:1px solid #2b0200; 
+}
+.h-line {
+    height: 1px;
+    width: 100%;
+    background-color: #2b0200;
 }

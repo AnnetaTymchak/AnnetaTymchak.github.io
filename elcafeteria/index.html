@@ -92,7 +92,8 @@
                 </div>
             </div>    
         </div>
-                
+       
+    <div class="line">
         <div class="container-fluid p-0" id="products">
             <div class="text-fonwite py-4">        
                 <div class="row mx-0 justify-content-center">
@@ -103,7 +104,9 @@
                 </div>
             </div>
         </div>
+    </div>
             
+        <div class="container-fluid">
             <div class="row no-gutters align-items-center">
                 <div class="col-md-6">
                     <div id="firstCarouselIndicators" class="carousel slide" data-ride="carousel">
@@ -316,35 +319,43 @@
         
         <div class="text-forfon py-5">    
             <div class="container">
-                <div  class="row justify-content-center">
+                <div  class="row justify-content-md-center">
                     <div class="col-12">
                         <h1 class="display-4 text-neucha mt-xl-5 mt-2 text-center"> - Контакти - </h1>
                     </div>
                     
-                    <div class="col-12 col-md-5 ">
+                    <div class="col-md-5 ">
                         <img class="img-fluid dark-bg py-4 px-5 mx-1"  src="img/logo.png">
                         <p class="px-3">Duis condimentum nisi eget erat consectetur pretium. Suspendisse nec tortor sit amet sem aliquam blandit. Phasellus posuere pellentesque tortor, vitae eleifend neque interdum eget. Proin sagittis massa sed eros lobortis consequat. Sed id scelerisque turpis, facilisis fringilla enim.</p>
+                        <div class="h-line"></div>
                     </div>
                     
-                    <div class="col-12 col-md-5 py-5">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
+                    <div class="col-md-5 py-5">
+                        <form>
+                            <p class="h4 text-center mb-4">Write to us</p>
+
+                            <!— Default input name —>
+                            <input placeholder="Your name" type="text" id="defaultFormContactNameEx" class="form-control">
+
+                            <br>
+
+                            <!— Default input email —>
+                            <input placeholder="Your email" type="email" id="defaultFormContactEmailEx" class="form-control">
+
+                            <br>
+
+                            <!— Default input subject —>
+                            <input placeholder="Write your number" type="text" id="defaultFormContactSubjectEx" class="form-control">
+
+                            <br>
+
+                            <!— Default textarea message —>
+                            <textarea placeholder="Write your message" type="text" id="defaultFormContactMessageEx" class="form-control" rows="3"></textarea>
+
+                            <div class="text-center mt-4">
+                                <button type="button" class="btn btn-custom text-center" style="width: 100%"> Send </button>
                             </div>
-                            <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
-                        </div>
-                            
-                         <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="E-mail" aria-label="E-mail" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                            </div>
-                        </div>  
-                        
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control text-start py-5" placeholder="Leaveyour message hear" aria-label="Leaveyour message hear" aria-describedby="basic-addon2">
-                            <div class="input-group-append">
-                            </div>
-                        </div> 
-                        <button type="button" class="btn btn-custom"> Send </button>
+                        </form>
                     </div>
                 </div>
             </div>
